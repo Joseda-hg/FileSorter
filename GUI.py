@@ -18,9 +18,12 @@ lbl3.grid(column=0, row=2)
 lbl4 = Label(window, text="Categorias y reglas para hacer Sorting", font=("Arial bold", 30))
 lbl4.grid(column=0, row=5)
 
+def sort():
+    sorter.sortalg(directoryToSort)
 
-btn2 = Button(window, text="Sort")
+btn2 = Button(window, text="Sort", command=sort)
 btn2.grid(column=2, row=7)
+
 
 # def clicked():
 #     res = "Welcome to " + txt.get()
@@ -41,11 +44,11 @@ btn2.grid(column=2, row=7)
 directoryToSort = filedialog.askdirectory(mustexist = True, initialdir = "C:/Users/",title = "Select directory")
 print(directoryToSort)
 
-directoryText = Entry(window,width=20) #state = "disabled"
+directoryText = Entry(window,width=50) #state = "disabled"
 directoryText.grid(column=1, row=2)
 directoryText.insert(END, directoryToSort)
 directoryText.focus()
 
-print(sorter.reglaImagenes.nombre)
+# print(sorter.reglaImagenes.nombre)
 window.mainloop()
 

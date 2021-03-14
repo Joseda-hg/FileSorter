@@ -3,8 +3,8 @@ from tkinter.ttk import *
 from tkinter import filedialog
 import sorter 
 
-def browse(self):
-    self.filename=filedialog.askdirectory(mustexist = True, initialdir = "C:/Users/",title = "Select directory")
+def browse():
+    filename=filedialog.askdirectory(mustexist = True, initialdir = "C:/Users/",title = "Select directory")
     
 def sort():
     sorter.sortalg(directoryToSort)

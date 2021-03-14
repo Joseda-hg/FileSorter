@@ -2,9 +2,6 @@ import os
 
 ListaExtensiones = ["txt", "mp3", "mp4", "jpg", "exe"]
 
-
-
-
 ListaDirectorios = ["documentos", "ejecutables", "imagen", "musica", "video"]
 for directorio in ListaDirectorios:
     for extension in ListaExtensiones:

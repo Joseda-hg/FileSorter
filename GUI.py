@@ -1,13 +1,13 @@
 from tkinter import *
 from tkinter.ttk import *
 from tkinter import filedialog
-import sorter 
+# import sorter 
 
-def browse():
-    filename=filedialog.askdirectory(mustexist = True, initialdir = "C:/Users/",title = "Select directory")
+# def browse():
+#     filename=filedialog.askdirectory(mustexist = True, initialdir = "C:/Users/",title = "Select directory")
     
-def sort():
-    sorter.sortalg(directoryToSort)
+# def sort():
+#     sorter.sortalg(directoryToSort)
 
 window = Tk()
 directoryToSort = ""
@@ -26,14 +26,14 @@ lbl4 = Label(window, text="Categorias y reglas para hacer Sorting", font=("Arial
 lbl4.grid(column=0, row=5)
 
 
-btn2 = Button(window, text="Sort", command=sort)
+btn2 = Button(window, text="Sort",)
 btn2.grid(column=2, row=7)
 
-directorybutton = Button(window, text="...", command=self.browse)
+directorybutton = Button(window, text="...")
 directorybutton.grid(column=3, row=3)
 directoryText = Entry(window,width=50) 
 directoryText.grid(column=1, row=2)
-directoryText.insert(END, browse.filename)
+directoryText.insert(END, "browse.filename")
 directoryText.focus()
 
 window.mainloop()

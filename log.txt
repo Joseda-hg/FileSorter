@@ -1,0 +1,28 @@
+Verificacion de Prerequisitos
+Permisos - Pass
+
+Prueba Movimiento()
+Creacion de Movimiento de Prueba - Pass
+
+Prueba Reglas()
+Creacion de Regla de Prueba - Pass
+
+Ejecucion de Prueba
+Moviendo 1 archivo al directorio de prueba - Pass
+
+Prueba Movimiento 1 archivo
+Executed in 0.001850400000000002 seconds
+
+Prueba Movimiento 100 archivos
+Executed in 0.15712700000000002 seconds
+
+Prueba Movimiento 1000 archivos
+Executed in 1.1999999999928734e-06 seconds
+
+Prueba de Valores Limites
+Sistema operativo de (64) bits - Acceso a Listas de hasta 9223372036854775807 valores
+Sistema de Archivos (NTFS) limite por directorio de:  4,294,967,295
+
+Prueba de Flujo
+Usando un directorio, regla y archivo;
+se ejecuta correctamente el programa hasta su final - Pass 

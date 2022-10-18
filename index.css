@@ -1,0 +1,26 @@
+* {
+margin: 0; /*margen exterior*/
+padding: 0; /*margen interior*/
+box-sizing: border-box;
+};
+
+i {
+    color: aqua;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    size: 10%
+}
+
+.log {
+    border-color: lightblue;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    color: darkgray;
+    /* background-color: grey; */
+}
+
+#content{
+    padding: 3%;
+}

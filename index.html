@@ -11,32 +11,7 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/025f2cd8d0.js" crossorigin="anonymous"></script>
-    <style>
-        i {
-            color: aqua;
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            size: 10%
-        }
-    </style>
-    <style>
-        .log {
-            border-color: lightblue;
-            border-width: 2px;
-            border-radius: 3px;
-            border-style: solid;
-            color: darkgray;
-            /* background-color: grey; */
-        }
-    </style>
-    <style>
-    * {
-        margin: 0; /*margen exterior*/
-        padding: 0; /*margen interior*/
-        box-sizing: border-box;
-      };    
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -46,18 +21,22 @@
             <div class="form-group">
                 <div class="mb-3">
                     <label for="Extensiones de Archivo" class="form-label">Extensiones de archivo</label>
-                    <input type="text" class="form-control" name="" id="" placeholder=".mp4, .mkv, .flv"></input>
+                    <input type="text" class="form-control" name="" id="inputExtensiones" placeholder=".mp4, .mkv, .flv"></input>
                 </div>
+
                 <div class="mb-3">
                     <label for="" class="form-label">Tipo de archivo</label>
-                    <input type="text" class="form-control" name="" id="" placeholder="Videos"></input>
+                    <input type="text" class="form-control" name="" id="inputTipo" placeholder="Videos"></input>
                 </div>
+
                 <div class="mb-3">
                     <label for="" class="form-label">Direccion de destino</label>
-                    <input type="text" class="form-control" name="" id="" placeholder="C:/Usuario/Videos"></input>
+                    <input type="text" class="form-control" name="" id="inputDireccion" placeholder="C:/Usuario/Videos"></input>
                 </div>
+
             </div>
-            <button class="btn btn-primary">Añadir Regla</button>
+
+            <button class="btn btn-primary" id="addButton" >Añadir Regla</button>
         </form>
         <table class="table">
             <!-- headers -->
@@ -104,6 +83,7 @@
             <i class=" fa-3x fa-solid fa-gear"></i>
         </a>
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>

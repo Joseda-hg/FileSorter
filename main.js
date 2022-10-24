@@ -27,7 +27,7 @@ fetch('./rules.json')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.log(error));
-
+// Write rows from
 
   
 
@@ -39,3 +39,4 @@ while (i < nOfLines) {
   logger.innerHTML += "<p>Prueba de linea de Log</p>"
   i++
 }
+

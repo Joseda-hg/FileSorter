@@ -1,5 +1,28 @@
 {
-    "nombre":"video",
-    "Direccion":"C:",
-    "extensiones" :".mp3 "  
+    "reglas": [
+        {
+            "nombre": "Video",
+            "Direccion": "C:/Usuario/Imagenes",
+            "extensiones": ".mp3 ",
+            "state":false
+        },
+        {
+            "nombre": "Imagenes",
+            "Direccion": "C:/Usuario/Imagenes",
+            "extensiones": ".mp3 ",
+            "state":false
+        },
+        {
+            "nombre": "Musica",
+            "Direccion": "C:/Usuario/Musica",
+            "extensiones": ".mp3 ",
+            "state":false
+        },
+        {
+            "nombre": "Textos",
+            "Direccion": "C:/Usuario/Textos",
+            "extensiones": ".mp3 ",
+            "state":false
+        }
+    ]
 }

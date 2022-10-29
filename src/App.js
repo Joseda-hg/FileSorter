@@ -62,8 +62,8 @@ function App() {
         </table>
         <button class="btn btn-primary"> Mover archivos </button>
         <br></br>
-        <div id="logger" class="log">
 
+        <div id="logger" class="log">
         </div>
 
         <a href="/">

@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# TO DO
+
+- [ ] Añadir reglas a .json 
+- [ ] Editar reglas a .json
+- [ ] Eliminar reglas del .json
+- [ ] Generar lista de reglas desde el .json
+- [ ] Añadir el movimiento 
+- [ ] Añadir el logging
+- [ ] Corregir la GUI
+- [ ] Añadir el call a RUST para generar el seleccionador de directorios

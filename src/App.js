@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 // import './App.css';
 import "./main.js"
+import añadirRegla from "./controllers/añadirRegla"
+
+
 function App() {
   return (
     <div className="App">
@@ -28,12 +31,12 @@ function App() {
 
             </div>
 
-            <button class="btn btn-primary" id="addButton">Añadir Regla</button>
+            <button class="btn btn-primary" id="addButton" onClick={añadirRegla}>Añadir Regla</button>
         </form>
-        <table class="table">
+        <table className="table">
             <thead>
                 <tr>
-                    <th scope="col"><input class="form-check-input" type="checkbox"></input></th>
+                    <th scope="col"><input className="form-check-input" type="checkbox"></input></th>
                     <th scope="col">Extensiones de archivo</th>
                     <th scope="col">Nombre del tipo</th>
                     <th scope="col">Direccion de destino</th>
@@ -41,13 +44,13 @@ function App() {
             </thead>
             <tbody>
                 <tr>
-                    <th scope="col"><input class="form-check-input" type="checkbox"></input></th>
+                    <th scope="col"><input className="form-check-input" type="checkbox"></input></th>
                     <th scope="row">.jpg</th>
                     <td>Imagenes</td>
                     <td>C:/Usuario/Imagenes</td>
                 </tr>
                 <tr>
-                    <th scope="col"><input class="form-check-input" type="checkbox"></input></th>
+                    <th scope="col"><input className="form-check-input" type="checkbox"></input></th>
                     <th scope="row">.mp4</th>
                     <td>Videos</td>
                     <td>C:/Usuario/Videos</td>

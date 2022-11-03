@@ -10,6 +10,7 @@ function App() {
       <header className="App-header">
       <div id="content">
         <p>Directorio: "C:/Usuario/Documentos/CarpetaDesordenada"</p>
+        <button className="btn btn-primary">...</button>
         <form>
             <div class="form-group">
                 <div class="mb-3">

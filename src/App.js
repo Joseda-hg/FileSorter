@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 // import './App.css';
 import "./main.js"
 import añadirRegla from "./controllers/añadirRegla"

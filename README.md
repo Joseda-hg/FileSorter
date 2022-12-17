@@ -23,8 +23,13 @@ El flujo del programa es el siguiente
 6. Permitir de agregar la opcion de renombrar archivos al moverlos
 
 7. Permitir opcion de monitorear carpetas especificas
+   
+   1. Permitir movimientos basado en nombre o extension de archivos
 
-8. # TO DO
+8. Opciones: Mover, Copiar, Renombrar, Eliminar y notificar
+
+# TO DO
+
 - [ ] Añadir reglas a .json 
 - [ ] Editar reglas a .json
 - [ ] Eliminar reglas del .json
